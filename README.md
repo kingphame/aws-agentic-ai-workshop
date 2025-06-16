@@ -1,7 +1,19 @@
 <p align="center">
-  <img src="assets/banner_building_effective_agents.png" width="80%" alt="Building Effective AI Agents on AWS">
+  <img src="assets/BannerImage-New.png" width="80%" alt="Building Effective AI Agents on AWS">
 </p>
 
+<p align="center">
+  <a href="https://github.com/SaharZargarzadeh/aws-agentic-ai-workshop/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/SaharZargarzadeh/aws-agentic-ai-workshop?style=social">
+  </a>
+  <a href="https://github.com/SaharZargarzadeh/aws-agentic-ai-workshop/network/members">
+    <img alt="Forks" src="https://img.shields.io/github/forks/SaharZargarzadeh/aws-agentic-ai-workshop?style=social">
+  </a>
+  <img alt="Python" src="https://img.shields.io/badge/language-Python-blue?logo=python&logoColor=white">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
+  <img alt="Status" src="https://img.shields.io/badge/status-Active-brightgreen">
+  <img alt="Maintained" src="https://img.shields.io/badge/maintained-yes-success">
+</p>
 # 🧠 Building Effective AI Agents on AWS
 
 Agentic AI is a game-changer. Instead of relying on a single massive model for every task, we orchestrate specialized tools, models, and workflows in modular, scalable ways. These agentic systems allow us to reason, decide, and act in cost-efficient and context-aware pipelines.
